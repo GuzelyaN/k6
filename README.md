@@ -1,5 +1,12 @@
 # k6
 ---
+## Preconditions
+
+1. Зайди на официальный сайт https://k6.io/docs/getting-started/installation/#windows
+2. Скачай последний .zip с https://github.com/grafana/k6/releases
+3. Распакуй архив, например в C:\k6
+4. Добавь путь к папке с k6.exe в системную переменную окружения PATH
+
 
 ## ✅ Шаг 1. Установи `postman-to-k6`
 
