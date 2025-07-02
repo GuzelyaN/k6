@@ -60,3 +60,14 @@ k6 run script.js > output.txt
 ```bash
 k6 run --vus 50 --duration 1m -e baseUrl=https://***-backend-prod.fly.dev script.js
 ```
+## ✅ Шаг 5. 🔑 Получи токен для k6 login cloud
+Зайди в браузере на https://app.k6.io/account
+Перейди во вкладку "Cloud API Token" (или "API Token")
+Нажми "Create Token" (можно назвать, например: local CLI)
+Скопируй сгенерированный токен
+
+## ✅ Шаг 6. Запусти нагрузочное а облаке k6 cloud
+```bash
+k6 cloud script.js
+```
+Результаты будут доступны в веб-интерфейсе https://app.k6.io
